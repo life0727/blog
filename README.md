@@ -5,7 +5,7 @@
 # 目录
 
 ## Vue
-- [关于一些Vue的文章。（1）](https://github.com/jkchao/bolg/issues/1)
+- [Virtual DOM， Diff算法（一）。](https://github.com/jkchao/bolg/issues/1)
 
 - [render, template, el 渲染。](https://github.com/jkchao/bolg/issues/2)
 
