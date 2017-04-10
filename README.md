@@ -17,3 +17,5 @@
 - [关于一些Vue的文章。（4）](https://github.com/jkchao/bolg/issues/4)
 
 - [关于一些Vue的文章。（5）](https://github.com/jkchao/bolg/issues/5)
+
+- [关于一些Vue的文章。（5）](https://github.com/jkchao/bolg/issues/6)
