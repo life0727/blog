@@ -21,3 +21,8 @@
 - [关于一些Vue的文章。（6）](https://github.com/jkchao/bolg/issues/6)
 
 - [关于一些Vue的文章。（7）](https://github.com/jkchao/bolg/issues/7)
+
+
+---
+
+## 实现一个简单的MVVM。
