@@ -25,5 +25,5 @@
 
 ---
 
-## JavaScript学习
+## 查漏补缺 JavaScript
 - [谈谈 Object.prototype.toString 。](https://github.com/jkchao/bolg/issues/8)
