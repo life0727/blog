@@ -28,4 +28,4 @@
 ## 查漏补缺 JavaScript
 - [谈谈 Object.prototype.toString 。](https://github.com/jkchao/bolg/issues/8)
 
-- [JavaScript 一切皆对象？🤔](https://github.com/jkchao/bolg/issues/9)
+- [JavaScript 万物皆对象？🤔](https://github.com/jkchao/bolg/issues/9)
