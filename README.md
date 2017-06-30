@@ -30,4 +30,4 @@
 
 - [JavaScript 万物皆对象？🤔](https://github.com/jkchao/bolg/issues/9)
 
-## 浅谈http
+## 浅谈HTTP
