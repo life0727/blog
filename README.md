@@ -18,10 +18,10 @@
 
 > 在工作及其学习中，对 JavaScript 的深入学习，补充。
 
-- [谈谈 Object.prototype.toString 。](https://github.com/jkchao/bolg/issues/8)
 
 - [JavaScript 万物皆对象？🤔](https://github.com/jkchao/bolg/issues/9)
 
+- [谈谈 Object.prototype.toString 。](https://github.com/jkchao/bolg/issues/8)
 
 ---
 
