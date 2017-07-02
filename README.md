@@ -6,7 +6,7 @@
 
 ## HTTP
 
-> HTTP 协议，是 TCP/IP 协议的应用层协议。规定了，客户端与服务器端的传输规则。以下的文章，将是对 HTTP 协议学习的总结。
+> HTTP 协议，是 TCP/IP 协议的应用层协议。规定了客户端与服务器端的传输规则。以下的文章，将是对 HTTP 协议学习的总结。
 
 - [从 URI 开始](https://github.com/jkchao/bolg/issues/10)
 
