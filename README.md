@@ -26,7 +26,7 @@
 ## 其他
 > 一些转载的文章。
 
-- []()
+- [界面之下：还原真实的MV*模式](https://github.com/jkchao/bolg/issues/11)
 ---
 
 
