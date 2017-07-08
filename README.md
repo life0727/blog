@@ -22,6 +22,8 @@
 - 如果是可以缓存的，这个响应则会被存储起来。
 - 浏览器处理该响应
 
+![](https://github.com/jkchao/blog/raw/master/http/htto.jpeg)
+
 以下文章，将会对上述进行详细描述，亦是对自己学习的总结：
 
 - [从 URI 开始](https://github.com/jkchao/bolg/issues/10)
