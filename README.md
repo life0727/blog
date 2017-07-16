@@ -30,7 +30,7 @@
 
 - [DNS 解析](https://github.com/jkchao/bolg/issues/13)
 
-- [简单谈谈 TCP/IP ]()
+- [简单谈谈 TCP/IP ](https://github.com/jkchao/blog/issues/14)
 
 ---
 
