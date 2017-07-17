@@ -55,7 +55,6 @@
 
 ## Vue
 
-> 推荐一些好的文章，对其进行反思与深入。
 
 - [关于一些Vue的文章。（1）](https://github.com/jkchao/bolg/issues/1)
 
