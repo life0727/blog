@@ -1,6 +1,13 @@
 <template>
   <div id="app">
-    <h1>{{msg}}</h1>
+    <h1>{{ msg }}</h1>
+    <router-link
+      v-for="(item,index) in $router.options.routes" :key="index"
+      :to="item.path"
+      class="nav">{{item.name}}</router-link>
+    <div class="demo">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -20,8 +27,20 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  width: 600px;
+  margin: 60px auto;
+}
+
+.nav {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.demo {
+  margin-top: 50px;
 }
 </style>
