@@ -48,7 +48,7 @@
 
 - [JavaScript 万物皆对象？🤔](https://github.com/jkchao/bolg/issues/9)
 
-- [谈谈 Object.prototype.toString 。](https://github.com/jkchao/bolg/issues/8)
+- [谈谈 Object.prototype.toString ](https://github.com/jkchao/bolg/issues/8)
 
 ---
 
@@ -56,19 +56,19 @@
 ## Vue
 
 
-- [关于一些Vue的文章。（1）](https://github.com/jkchao/bolg/issues/1)
+- [关于一些Vue的文章（1）](https://github.com/jkchao/bolg/issues/1)
 
-- [关于一些Vue的文章。（2）](https://github.com/jkchao/bolg/issues/2)
+- [关于一些Vue的文章（2）](https://github.com/jkchao/bolg/issues/2)
 
-- [关于一些Vue的文章。（3）](https://github.com/jkchao/bolg/issues/3)
+- [关于一些Vue的文章（3）](https://github.com/jkchao/bolg/issues/3)
 
-- [关于一些Vue的文章。（4）](https://github.com/jkchao/bolg/issues/4)
+- [关于一些Vue的文章（4）](https://github.com/jkchao/bolg/issues/4)
 
-- [关于一些Vue的文章。（5）](https://github.com/jkchao/bolg/issues/5)
+- [关于一些Vue的文章（5）](https://github.com/jkchao/bolg/issues/5)
 
-- [关于一些Vue的文章。（6）](https://github.com/jkchao/bolg/issues/6)
+- [关于一些Vue的文章（6）](https://github.com/jkchao/bolg/issues/6)
 
-- [关于一些Vue的文章。（7）](https://github.com/jkchao/bolg/issues/7)
+- [关于一些Vue的文章（7）](https://github.com/jkchao/bolg/issues/7)
 
 
 
