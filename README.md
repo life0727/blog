@@ -38,6 +38,8 @@
 ## 其他
 > 一些转载的文章。
 
+- [雅虎前端优化35条规则翻译](https://github.com/jkchao/bolg/issues/15)
+
 - [界面之下：还原真实的MV*模式](https://github.com/jkchao/bolg/issues/12)
 ---
 
