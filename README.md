@@ -1,5 +1,6 @@
 # 个人博客
 
+此项目不再更新，blog 转移至 https://jkchao.cn
 
 ---
 
