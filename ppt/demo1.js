@@ -1,11 +1,35 @@
+const languages = [
+  { name: 'TypeScript', ext: 'TS' },
+  { name: 'JavaScript', ext: 'JS' },
+  { name: 'Java', ext: 'Java' }
+]
 
-
-function sortByName (peoples) {
-  return peoples.sort(function (a, b) {
-    return a.name.localCompare(b.name)
+function findByName (name, list) {
+  let res
+  list.forEach(item => {
+    if (item.name.toLower() === name.toLower()) {
+      res = item
+    }
   })
+  return res
 }
 
-// sortByName(5)
 
-sortByName(5)
+const languages = [ { name: "TypeScript", ext: "ts"}
+                , { name: "JavaScript", ext: "js"}
+                , { name: "Java", ext: "java" }
+                ]
+
+interface Language {
+  name: string
+  ext: string
+}
+
+function findByName(name: string, elems: Language[]) {
+  var elem: Language;
+  elems.forEach(function(value, index) {
+    if (value.name.toLowerCase() === name.toLowerCase())
+      elem = value;
+  })
+  return elem;
+}
