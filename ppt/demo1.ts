@@ -11,10 +11,10 @@ interface Language {
 }
 
 function findByName(name: string, elems: Language[]) {
-  var elem: Language;
+  var elem: Language
   elems.forEach(function(value, index) {
     if (value.name.toLower() === name.toLower())
-      elem = value;
+      elem = value
   })
-  return elem;
+  return elem
 }
