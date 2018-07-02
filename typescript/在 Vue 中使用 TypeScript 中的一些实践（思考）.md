@@ -31,16 +31,55 @@ export default {
 
 ![](http://ovshyp9zv.bkt.clouddn.com/typescriptInVue/WechatIMG298.jpeg?imageView2/2/w/450)
 
-这意味着我们可以使用 someProp 上的任意属性（存在或者是不存在的）都可以通过编译。为了防止此种情况的发生，我们将会给 prop 添加类型注释。
+这意味着我们可以使用 someProp 上的任意属性（存在或者是不存在的）都可以通过编译。为了防止此种情况的发生，我们将会给 prop 添加类型注释。 
+
+使用 `Vue.extend()` 方法添加类型注释时，需要给 type 断言：
+
+```typescript
+import Vue from 'vue'
+
+interface User {
+  id: number,
+  age: number
+}
+
+export default Vue.extend({
+  props: {
+    testProps: {
+      type: Object as () => User
+    }
+  }
+})
+
+```
+
+当组件内访问 testProps 时，便能得到相关提示：
+
+![](http://ovshyp9zv.bkt.clouddn.com/typescriptInVue/Screen%20Shot%202018-07-02%20at%2011.11.24%20AM.png)
+
+注意，你必须以函数返回值的形式断言，并不能直接断言：
+
+```typescript
+export default Vue.extend({
+  props: {
+    testProps: {
+      type: Object as User
+    }
+  }
+})
+```
+
+这将会发出警告：***Type 'ObjectConstructor' cannot be converted to type 'User'. Property 'id' is missing in type 'ObjectConstructor'.***
 
 
-
-
+  
 
 
 
 
 ## 导入 vue 组件时，为什么会报错？
+
+
 
 
 
