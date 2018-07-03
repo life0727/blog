@@ -57,7 +57,7 @@ export default Vue.extend({
 
 ![](http://ovshyp9zv.bkt.clouddn.com/typescriptInVue/Screen%20Shot%202018-07-02%20at%2011.11.24%20AM.png)
 
-注意，你必须以函数返回值的形式断言，并不能直接断言：
+然而，你必须以函数返回值的形式断言，并不能直接断言：
 
 ```typescript
 export default Vue.extend({
@@ -69,17 +69,37 @@ export default Vue.extend({
 })
 ```
 
-这将会发出警告：***Type 'ObjectConstructor' cannot be converted to type 'User'. Property 'id' is missing in type 'ObjectConstructor'.***
+他会给出错误警告，User 接口并没有实现原生 Object 构造函数所执行的方法。
+***Type 'ObjectConstructor' cannot be converted to type 'User'. Property 'id' is missing in type 'ObjectConstructor'.***
+
+实际上，我们可以从 prop type declaration：
+
+```typescript
+export type Prop<T> = { (): T } | { new (...args: any[]): T & object }
+
+export type PropValidator<T> = PropOptions<T> | Prop<T> | Prop<T>[];
+
+export interface PropOptions<T=any> {
+  type?: Prop<T> | Prop<T>[];
+  required?: boolean;
+  default?: T | null | undefined | (() => object);
+  validator?(value: T): boolean;
+}
+
+```
+可知 prop type 是一个联合类型，它包含以下两部分：
+
+- 一个返回值为 T 的范型函数；
+- 一个范型构造函数，该函数创建指定类型 T 的对象。
+ 
+ 
+当我们指定 type 类型为 Object 构造函数时，
+
+当我们使用关键字 `as` 断言 Object 为 `() => User` 时，根据声明文件，此时 T 为 User, 即 ｀Prop<User>｀，返回类型为 User 的对象。于是 TypeScript 便可以正确推断类型。
 
 
-  
 
 
 
 
 ## 导入 vue 组件时，为什么会报错？
-
-
-
-
-
