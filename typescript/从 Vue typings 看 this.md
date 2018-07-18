@@ -8,9 +8,9 @@
 - 除非在 Vue 上补充所需要的类型声明，我们在全局/实例上所使用非 Vue 所提供的属性或者组件选项时，TypeScript 都将会抛出错误、编译失败。
 - ......
 
-在这篇文章里，我们来谈谈 Vue typings 是如何把 methods/data/computed/prop 绑定到 Vue 的实例上的。
+在这篇文章里，我们来谈谈 Vue typings 是如何把 Methods/Data/Computed/Prop 绑定到 Vue 的实例上的。
 
-## methods
+## Methods
 
 先从一个简单的例子开始：
 
@@ -175,6 +175,8 @@ declare function testVue<V extends Vue, Data, Method>(
 ): V  & Data & Method
 ```
 
+这时候编译可以通过：
+
 ```typescript
 testVue({
   data () {
@@ -189,5 +191,9 @@ testVue({
 })
 ```
 
+## Computed
+
+
+Computed 的处理似乎有点棘手：
 
 
